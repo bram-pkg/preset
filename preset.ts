@@ -188,8 +188,8 @@ async function installBase({ i18n, ide }: Options) {
 				position: 'after',
 				indent: '        ',
 				lines: [
-					'Hybridly\\Support\\TypeScriptTransformer\\DataResourceTypeScriptCollector::class,',
 					'Spatie\\LaravelData\\Support\\TypeScriptTransformer\\DataTypeScriptCollector::class,',
+					'Hybridly\\Support\\TypeScriptTransformer\\DataResourceTypeScriptCollector::class,',
 					'Spatie\\TypeScriptTransformer\\Collectors\\EnumCollector::class,',
 				],
 			},
